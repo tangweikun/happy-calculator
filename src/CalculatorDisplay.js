@@ -1,6 +1,6 @@
 import React from "react";
 import { AutoScalingText } from "./AutoScalingText";
-import "./Foo.css";
+import "./Calculator.css";
 
 export class CalculatorDisplay extends React.Component {
   render() {

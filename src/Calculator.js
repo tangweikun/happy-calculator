@@ -1,6 +1,5 @@
 import React from "react";
-
-import "./Foo.css";
+import "./Calculator.css";
 import { CalculatorDisplay } from "./CalculatorDisplay";
 import { CalculatorKey } from "./CalculatorKey";
 
@@ -9,7 +8,7 @@ const CalculatorOperations = {
   "*": (prevValue, nextValue) => prevValue * nextValue,
   "+": (prevValue, nextValue) => prevValue + nextValue,
   "-": (prevValue, nextValue) => prevValue - nextValue,
-  "=": (prevValue, nextValue) => nextValue
+  "=": (_, nextValue) => nextValue
 };
 
 export class Calculator extends React.Component {
