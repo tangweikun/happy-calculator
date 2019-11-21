@@ -1,16 +1,14 @@
 import React from "react";
 import "./Calculator.css";
 
-export class CalculatorKey extends React.Component {
-  render() {
-    const { onPress, className, ...props } = this.props;
+export function CalculatorKey(props) {
+  const { onPress, className, ...rest } = props;
 
-    return (
-      <button
-        onClick={onPress}
-        className={`calculator-key ${className}`}
-        {...props}
-      />
-    );
-  }
+  return (
+    <button
+      onClick={onPress}
+      className={`calculator-key ${className}`}
+      {...rest}
+    />
+  );
 }
