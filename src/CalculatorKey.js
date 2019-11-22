@@ -2,13 +2,11 @@ import React from "react";
 import "./Calculator.css";
 
 export function CalculatorKey(props) {
-  const { onPress, className, ...rest } = props;
+  const { onPress, className, text } = props;
 
   return (
-    <button
-      onClick={onPress}
-      className={`calculator-key ${className}`}
-      {...rest}
-    />
+    <button onClick={onPress} className={`calculator-key ${className}`}>
+      {text}
+    </button>
   );
 }
