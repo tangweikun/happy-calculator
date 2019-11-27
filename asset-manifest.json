@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/happy-calculator/static/css/main.cb50c212.chunk.css",
+    "main.js": "/happy-calculator/static/js/main.65d783b1.chunk.js",
+    "main.js.map": "/happy-calculator/static/js/main.65d783b1.chunk.js.map",
+    "runtime-main.js": "/happy-calculator/static/js/runtime-main.f04727e3.js",
+    "runtime-main.js.map": "/happy-calculator/static/js/runtime-main.f04727e3.js.map",
+    "static/js/2.e94f5045.chunk.js": "/happy-calculator/static/js/2.e94f5045.chunk.js",
+    "static/js/2.e94f5045.chunk.js.map": "/happy-calculator/static/js/2.e94f5045.chunk.js.map",
+    "index.html": "/happy-calculator/index.html",
+    "precache-manifest.269f6d5595a633f795ff0477a965c710.js": "/happy-calculator/precache-manifest.269f6d5595a633f795ff0477a965c710.js",
+    "service-worker.js": "/happy-calculator/service-worker.js",
+    "static/css/main.cb50c212.chunk.css.map": "/happy-calculator/static/css/main.cb50c212.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f04727e3.js",
+    "static/js/2.e94f5045.chunk.js",
+    "static/css/main.cb50c212.chunk.css",
+    "static/js/main.65d783b1.chunk.js"
+  ]
+}
